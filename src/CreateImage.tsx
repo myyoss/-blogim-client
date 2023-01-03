@@ -27,7 +27,7 @@ const CreateImage = () => {
 
         const gallery = { title, body, author, date, image };
 
-        fetch('http://localhost:8000/gallery/', {
+        fetch('https://blogim-json-server.onrender.com/gallery/', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(gallery)
