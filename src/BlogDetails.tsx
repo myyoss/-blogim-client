@@ -5,7 +5,7 @@ import Spinners from './Spinners'
 
 const BlogDetails = () => {
     const { id } = useParams()
-    const { data: blog, error, isPanding } = useFetch('http://localhost:8000/blogs/' + id)
+    const { data: blog, error, isPanding } = useFetch('https://blogim-json-server.onrender.com/blogs/' + id)
 
     
     
@@ -15,7 +15,7 @@ const BlogDetails = () => {
 
 
     const handleDelete = () => {
-        fetch('http://localhost:8000/blogs/' + id, {
+        fetch('https://blogim-json-server.onrender.com/blogs/' + id, {
             method: 'DELETE'
         }).then(() => {
             setDeliting(true)
