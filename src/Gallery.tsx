@@ -6,7 +6,7 @@ import SearchGallery from './SearchGallery'
 
 const Gallery = () => {
 
-    const { isPanding, data: gallery, error } = useFetch('http://localhost:8000/gallery/')
+    const { isPanding, data: gallery, error } = useFetch('https://blogim-json-server.onrender.com/gallery/')
 
     return (
         <div>
