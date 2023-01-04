@@ -6,6 +6,10 @@ You can:
 LIVE DEMO:
 https://blogim-client.onrender.com
 
+server-side:
+
+https://github.com/myyoss/blogim-json-server
+
 Run with code:
 
 Terminal 1 - npm start
