@@ -1,7 +1,8 @@
 Blogs & Gallery App- REACR.JS
 You can:
 
-- Upload and delete new post
+- Write, Upload and delete posts
+- Upload and delete Photo Galery
 - Search post or photo by author
 
 LIVE DEMO:
